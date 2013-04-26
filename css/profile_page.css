@@ -1,0 +1,709 @@
+
+/*======================================Teacher name==================================================*/
+
+
+/*==========================================header content===========================================*/
+
+
+input,input[type="text"],textarea{
+outline: none;
+border: 1px solid rgb(204, 204, 204);
+color: #222;
+text-shadow: none;
+border-color:black;
+box-shadow: none;
+transition: none;
+border:none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    box-shadow: none;
+    transition: none;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+input#teacher_name_header{
+
+font-size: 20px;
+margin-top: 13px;
+height: 100%;
+font-weight: bold;
+}
+
+input.edit{
+    border:0px;
+    text-shadow: none
+}
+
+p.description_text{
+     margin: 10px 0 0 25px;
+   
+}
+textarea.user_description{
+    width:100%;
+    height:100%;
+    font-family:  sans-serif;
+font-size: 12px;
+line-height: 17px;
+  padding: 0px;
+  margin: 0px;
+   height: 100%;
+   resize:none;
+     height: 68px;
+}
+
+.scola_logo {
+margin: 0px;
+margin-left: 204px;
+}
+
+p.description_text{
+    
+    margin: 11px 0 0 27px;
+}
+
+.right_info_rows input.edit_label{
+    color: #008CC6;
+    margin: 0px;
+    padding: 0px;
+}
+.right_info_rows input{
+ margin:0px;
+ margin-bottom: 4px;
+text-align: right;
+line-height: 20px;
+font-family: 'Helvetica', 'Arial', sans-serif;
+font-size: 11px;
+margin-left: 10px;
+width:53%;
+}
+
+.right_scola_description {
+width: 30%;
+}
+
+.right_scola_description {
+margin-top: 27px;
+margin-right: 27px;
+}
+
+.right_info_rows_icons {
+width: 28.5%;
+}
+
+.right_info_rows img {
+margin-left: 11px;
+}
+
+.baner_change,.profile_image_change{
+    padding: 6px 0;
+text-align: center;
+bottom: 0;
+background-color: #212121;
+opacity: 0.6;
+position: absolute;
+display:none;
+color: #eee;
+cursor: pointer;
+}
+
+.baner_change{
+    width: 975px;
+}
+.profile_image_change{
+    width: 188px;
+    
+}
+
+.left_scola_description {
+padding: 5px 15px 17px 30px;
+}
+
+
+/*==========================================middle content===========================================*/
+
+
+.post_part{
+    background-color:transparent;
+    border:none;
+}
+
+.post_icons_background{
+   width: 100%;
+    background:white;
+    position:relative;
+margin-right: 0px;
+
+}
+
+.post_icons_write{
+    width: 100%;
+    background:white;
+   
+    border: 2px solid #CECECE;
+}
+
+.post_part{
+    width: 975px;
+}
+
+.teacher_general_post{
+    margin-top: 70px;
+}
+
+.left_post_part {
+width: 63.2%;
+margin-right: 0px;
+}
+
+.post_icons_container strong {
+font-size: 14px;
+line-height: 22px;
+margin-top: 14px;
+margin-left: 20px;
+margin-right: 9px;
+color: #212121;
+}
+
+.post_icons_container ul{
+    margin: 0px;
+    margin-top: 11px;
+}
+
+.post_icons_container ul li, .login_icons_container ul li {
+display: inline;
+padding-left: 5px;
+padding-right: 4px;
+cursor: pointer;
+float: left;
+margin-right: 0px;
+}
+.post_icons_container {
+position: absolute;
+top: -37px;
+width: 63%;
+}
+.settings{
+    margin-top: 16px;
+    margin-right: 8px;
+}
+.write_post{
+    padding: 34px 0 21px 0;
+}
+
+div.previous_post_content{
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 53px;
+    width:98%;
+}
+
+
+
+
+.paragraph_header img.delete_post{
+    position:static;
+    top:0px;
+    left:0px;
+    margin-top: 12px;
+    margin-right: 7px;
+}
+
+.post_type_img img{
+    width:35px;
+    height:35px;
+}
+
+aside{
+    width:34.3%;
+}
+
+.aside_content{
+  
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px #cbcbcb;  
+}
+
+.logout_option{
+     width:34.3%;
+}
+
+aside .view_post{
+    width:89.8%;
+}
+aside .post_type_img{
+    width:93.8%;
+}
+
+.view_post{
+    padding:  10px;
+    padding-bottom: 6px;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #eee;
+    margin-left: 5px;
+    margin-top: 3px;
+    
+}
+
+aside .post_type_img{
+    padding:  10px;
+    cursor:pointer;
+}
+
+.post_type_img ul li{
+    display:inline;
+    list-style-type: none;
+    float:left;
+    margin-right: 16px;
+}
+.post_type_img ul{
+    margin-left: 5px;
+    margin-top: 1px;
+   
+}
+.post_type_img ul{
+    width:100%;
+}
+
+strong.all{
+    font-size: 13px;
+    margin-bottom: 2px; 
+}
+
+
+/*-----------------------------------------Edit Settings------------------------------------------------*/
+
+ul.edit_settings li img{
+    width:50px;
+    height:50px;
+}
+
+
+ul.edit_settings {
+    margin-left: 91px;
+margin-top: 3px;
+}
+
+.back{
+    margin-top: 15px;
+margin-right: 8px;
+}
+
+
+
+.personal_form_row{
+    
+    width:95%;
+line-height: 19px;
+padding:6px;
+margin-left: 14px;
+
+letter-spacing: 0px;
+padding-bottom:0px;
+margin-bottom: 3px;
+
+}
+
+.personal_form_row .personal_form_label{
+font-weight: bold;
+padding:4px 6px;
+font-size: 13px;
+width:20.3%;
+padding-bottom: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
+    margin-top: 0px;
+
+}
+.personal_form_row input{
+    font-size: 12px;
+    padding:0px;
+    margin-top: 3px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.personal_form_row textarea{
+    width:70%;
+    font-size:12px;
+    line-height: 19px;
+    height:95px;
+    resize: none;
+}
+
+.save_settings input[type="submit"], .new_password_reset input[type="submit"],.change_password_button input[type="submit"],.info_post_button input[type="submit"]{
+background-color: transparent;
+    border:none;
+    font-size: 13px;
+    
+}
+
+div.personal,div.password_change,div.settings_email{
+    display:none;
+}
+
+ form .form_input{
+
+font-size: 14px;
+font-weight: 300;
+border-radius: 0px;
+
+padding: 4px;
+margin: 3px 0;
+border: 2px solid #CECECE;
+width: 96%;
+}
+
+
+#change_password form,#email_settings form{
+    width:53.5%;
+    margin-left: 38px;
+    margin-top: 18px;
+}
+
+#email_settings form{
+    margin-top: 38px;
+}
+
+#change_password strong,#email_settings strong{
+    margin-left: 20px;
+   font-size: 13px;
+}
+#change_password ,#email_settings{
+     margin-top: 4px;
+}
+
+
+#email_settings form.email_form{
+    width:50.1%;
+} 
+form.email_form .email_done{
+    margin-right: 1px;
+}
+
+form.email_form .email_done input[type="submit"]{
+    padding-right: 5px;
+}
+
+
+
+#change_password form input[type="password"],#email_settings form input[type="email"]{
+background-color: #EBEBEB;
+margin:2px;
+line-height: 20px;
+padding: 3px;
+
+}
+
+.change_password_help{
+    margin-top:3px;
+    margin-left: 2px;
+    
+    overflow: auto;   
+}
+
+
+
+#change_password strong.change_password_strong{
+  margin-left: 5px;  
+}
+
+.email_strong{
+    margin-right: 58px;
+}
+
+#email_settings{
+    margin-top: 7px;
+}
+
+#email_settings p{
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+form input[type="email"]#confirm_email_password{
+    margin-top: 16px;
+}
+
+.email_done{
+    margin-top: 10px;
+}
+
+ #email_settings form form.email_form{
+    width:47%
+}
+
+#email_settings form.social_address{
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+#email_settings form.social_address .personal_form_row{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#email_settings form{
+    width:94%;
+}
+
+
+#email_settings form label{
+    width: 30.3%;
+}
+
+
+#email_settings{
+    padding-bottom: 20px;
+}
+
+.logout_option{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+.manage_settings_tab{
+    display:none;
+}
+
+.settings_button,.back_button{
+    cursor:pointer;
+}
+
+.logout_option p.logout_footer{
+    width :100%;
+}
+
+.logout_option{
+    width:100%;
+}
+
+form label.email_error{
+top: 78px;
+right: 498px;
+width:10.3%;
+}
+
+form label.username_error{
+    top: 115px;
+    right: 498px;
+    width:10.3%;
+}
+form label.password_error {
+    top: 147px;
+    right: 498px;
+width:10.3%;
+}
+
+
+.change_password_button input[type="submit"],.info_post_button input[type="submit"]{
+background-color: transparent;
+}
+
+
+.personal_info_form{
+    font-size: 12px;
+}
+
+.save_settings input[type="submit"]{
+    background-color: transparent;
+}
+
+.logout_footer a{
+    cursor:pointer;
+}
+
+
+
+
+.old_password_error,.new_password_error,.confirm_new_password_error{
+
+ background: #ee0101;
+position: absolute;
+color: #fff;
+width: 150px;
+font-size: 11px;
+border: 2px solid #ddd;
+box-shadow: 0 0 6px #000;
+-moz-box-shadow: 0 0 6px #000;
+-webkit-box-shadow: 0 0 6px #000;
+padding: 4px 10px 4px 10px;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+display:none;
+}
+
+
+.new_password_error {
+top: 106px;
+right: 440px;
+}
+
+.old_password_error {
+top: 66px;
+right: 440px;
+}
+
+.confirm_new_password_error {
+top: 146px;
+right: 440px;
+}
+
+
+.write_post{
+    background-color: white;
+    border: 2px solid #CECECE;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.post_icons_write{
+    background-color: transparent;
+    border: none;
+}
+
+.titleofpost{
+    width:98%;
+}
+
+
+.titleofpost input#info_post_title,.titleofpost input#event_post_date,.titleofpost input#event_post_title,.titleofpost input#audio_post_title,.titleofpost input#video_post_title,.titleofpost input#video_url,.titleofpost input#form_post_title,.titleofpost input#photo_post_title{
+background-color: #EBEBEB;
+border: 2px solid #CECECE;
+font-size: 14px;
+font-style: italic;
+padding: 3px;
+text-align: left;
+width:100%;
+border-radius:0px;
+}
+
+.titleofpost input#event_post_date{
+    width:36.5%
+}
+
+.titleofpost input#video_url{
+    width:82%;
+}
+
+#info_post_button{
+    cursor:pointer;
+}
+
+
+div.write_info_post div.tinyeditor{
+    width:470px;
+    
+}
+
+.add_docs{
+    width:98%;
+    margin-top: 12px;
+}
+
+.info_add_file{
+    margin-right: 35px;
+    width:35%
+}
+
+.info_add_file label,.info_add_photo label{
+    color: rgb(121, 121, 121);
+    font-size:13px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.info_add_file img,.info_add_photo img{
+    cursor:pointer;
+}
+.info_add_photo label{
+    margin-left: 12px;
+}
+
+input#userphoto,input#userphoto_event,input#userphoto_audio{
+   
+position: relative;
+left: -100px;
+width: 107px;
+cursor: pointer;
+opacity:0;
+}
+
+input#userfile,input#userfile_event,input#userfile_audio{
+position: relative;
+left: -9px;
+width: 107px;
+cursor: pointer;
+bottom: 28px;
+opacity:0;
+}
+
+.info_add_file{
+    width:14.8%;
+    height:33px;
+}
+
+.info_add_photo{
+    width:39%;
+}
+
+
+#share_post,#calender_post,#audio_post,#video_post,#form_post{
+    display:none;
+}
+
+.active{
+    display:block;
+}
+p.audio_limit{
+    margin: 12px 15px 12px 15px;
+    font-size: 14px;
+}
+
+.audio_add_file{
+    width: 24.8%;
+    margin-right: 17px;
+}
+
+
+div.teacher_form_create .form_create_row input[type="text"]{
+    border: 1px solid #E3E3E3;
+border-radius: 2px;
+padding: 3px;
+outline: 1px;
+}
+
+.form_post_headers,.teacher_form_create,.form_create_row,.current_submission,.gender{
+    width: 100%;
+   
+}
+.current_submission{
+ text-align: center;
+ color: rgb(121, 121, 121);
+ display: none;
+}
+
+.current_submission label{
+    font-size: 13px;
+}
+.submit_form,.teacher_form_create{
+    margin-top: 15px;
+}
+
+.form_create_row{
+    padding-top: 20px;
+padding-bottom: 15px;
+padding-left: 5px;
+}
+
+.gender{
+    margin-bottom: 10px;
+}
+.first_name{
+    margin-right: 15px;
+}

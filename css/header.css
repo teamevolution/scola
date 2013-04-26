@@ -1,0 +1,115 @@
+.container_change{
+    width : 975px;
+   
+    margin: 10px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+header{
+    overflow:hidden;
+    box-shadow: 1px 1px 1px 1px #cbcbcb;
+    background-color: white;
+}
+.description_text{
+    margin: 10px 0 0 25px;
+   line-height: 17px;
+}
+
+.left_scola_description{
+    width: 59%;
+}
+
+.right_scola_description{
+   margin-top: 27px;
+margin-right: 21px;
+
+    
+}
+
+
+.left_scola_description , .scola_description, .banner{
+    position:relative;
+    
+}
+
+.image_header{
+    position:relative;
+    
+}
+
+.profile_image{
+     position:absolute;
+    left: 30px;
+    top: -125px;
+    
+    
+    background-color: #FFFFFF;
+    height: 168px;
+    padding: 4px;
+    width: 186px;
+    
+    box-shadow: 1px 1px 1px 1px #CBCBCB;
+}
+
+.scola_logo{
+    margin:0px;
+    margin-left: 210px;
+    line-height: 53px;
+
+}
+
+.scola_logo img{
+    height: 45px;
+    width: 120px;
+    
+    border: 0 none;
+    vertical-align: middle;
+
+    color: transparent;
+    font-size: 0;
+}
+
+
+.left_scola_description{
+padding: 5px 15px 15px 30px;
+}
+
+
+.left_scola_description p{
+    font-family: "Helvetica","Arial",sans-serif;
+
+font-size: 12px;
+margin: 12px 0 0 25px;
+
+color: #222222;
+
+}
+
+.right_scola_description{
+width: 21%;
+}
+
+.right_info_rows label.edit_label{
+    color: #008CC6;
+    margin: 0px;
+}
+.right_info_rows label{
+ margin:0px;
+ margin-bottom: 4px;
+text-align: right;
+line-height: 20px;
+font-family: 'Helvetica', 'Arial', sans-serif;
+font-size: 11px;
+margin-left: 10px;
+}
+
+
+.right_info_rows img{
+    margin-left: 10px;
+}
+
+.right_info_rows_icons {
+    width:39.5%;
+}

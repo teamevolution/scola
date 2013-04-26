@@ -1,0 +1,318 @@
+html{
+    overflow-y: scroll;
+}
+
+body{
+    
+    background-color: rgb(236, 239, 247);
+    line-height: 17px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+}
+
+
+
+/*----------------------------------Login/Register-------------------*/
+
+.left_post_part_paragraph{
+    margin-top: 40px;
+     box-shadow: 1px 1px 2px 1px #cbcbcb; 
+    position: relative;
+}
+
+
+
+.left_post_part{
+    width:66.5%;
+    margin-right: 0px;
+   
+    
+}
+
+.right_post_part{
+    width:33%;
+   
+   
+}
+
+
+.paragraph_header h3{
+font-size: 14px;
+line-height: 20px;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+
+.paragraph_header p{
+color: #919191;
+font-size: 11px;
+line-height: 16px;
+}
+
+.paragraph_header_text p{
+font-size: 13px;
+line-height: 19px;
+color: #212121;
+margin-bottom: 19px;
+}
+
+.left_post_part_paragraph{
+margin-left: 23px;
+padding: 0px 8px 0px;
+}
+.paragraph_header{
+margin: 0px 0 0 82px;
+}
+
+.paragraph_header img{
+    position: absolute;
+    top: -10px;
+left: 15px;
+
+}
+
+.paragraph_header_text{
+margin: 10px 23px 0 15px;
+padding-bottom: 1px;
+}
+
+.post_icons_container ul,.login_icons_container ul{
+    list-style-type: none;
+}
+
+.post_icons_container ul li, .login_icons_container ul li{
+    display:inline;
+    padding-left: 5px;
+     padding-right: 4px;
+cursor: pointer;
+float:left;
+margin-right: 4px;
+}
+
+
+
+
+.post_part{
+border: 2px solid #CECECE;
+padding-bottom: 25px;
+margin-top: 50px;
+position: relative;
+background-color: white;
+}
+
+.post_icons_container{
+    position: absolute;
+    top: -37px;
+}
+
+.login_icons_container{
+    position: absolute;
+    
+}
+
+.login_icons_container strong{
+    font-size: 15px;
+line-height: 22px;
+margin-top: 10px;
+margin-left: 15px;
+margin-right: 33px;
+color:black;
+}
+
+.post_icons_container strong{
+    font-size: 15px;
+line-height: 22px;
+margin-top: 10px;
+margin-left: 15px;
+margin-right: 33px;
+color:#212121;
+}
+
+.login_icons_container ul a:hover{
+    text-decoration: none;
+}
+
+.login_icons_container ul{
+    margin:0px;
+    margin-left: 8px;
+}
+
+.login_icons_container ul li{
+display: inline-block;
+padding: 5px;
+
+}
+
+.login_icons_container strong{
+    margin-right:  16px ;
+}
+
+.login_icons_container ul li:first-child{
+    margin-right: 13px;
+}
+
+.register form .form_input, .login form .form_input, .forget form .form_input,.forget_reset form .form_input{
+
+font-size: 14px;
+font-weight: 300;
+border-radius: 0px;
+
+padding: 4px;
+margin: 3px 0;
+border: 2px solid #CECECE;
+width: 96%;
+}
+
+.register form, .login form, .forget form,.forget_reset{
+    margin-top: 11px;
+}
+
+.register, .login, .forget,.forget_reset{
+margin-top: 37px;
+margin-right: 25px;
+margin-left: 23px;
+}
+.register,.login,.audio_info,.video_info,.photo_info,.share_post_info,.form_info,.login_info,.register_info,.calender_info,.forget{
+     display:none; 
+}
+
+.active{
+    display:block;  
+}
+
+.inactive{
+    opacity: 0.4;
+}
+
+
+.register form input[type="submit"],.login form input[type="submit"],.forget form input[type="submit"],.forget_reset form input[type="submit"]{
+    background-color: transparent;
+    border:none;
+    font-size: 13px;
+}
+
+
+.register form .register_submit, .login form .register_submit{
+    margin-top: 7px;
+    cursor:pointer;
+    
+}
+
+a.scola_anchor{
+   text-decoration: none;
+    color:black; 
+}
+
+
+
+
+.login_submit div.forget_password{
+    margin-top:13px;
+  
+}
+
+.login_submit div.forget_password strong{
+    margin-top: 7px;
+margin-left: 5px;
+font-size:13.1px;
+}
+
+.calender_info .paragraph_header img{
+    height: 50px;
+    width:50px;
+}
+
+.email_error,.password_error,.username_error,.login_error,.login_password_error,.password_forget_error,.reset_password_error,.new_password_error{
+    background: #ee0101;
+position: absolute;
+color: #fff;
+width: 150px;
+font-size: 11px;
+border: 2px solid #ddd;
+box-shadow: 0 0 6px #000;
+-moz-box-shadow: 0 0 6px #000;
+-webkit-box-shadow: 0 0 6px #000;
+padding: 4px 10px 4px 10px;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+display:none;
+}
+
+.email_error,.new_password_error{
+top: 66px;
+right: -156px;
+}
+.password_error,.reset_password_error{
+   top: 106px;
+right: -156px;
+}
+
+.username_error{
+    top: 144px;
+right: -156px;
+}
+
+.succesfull_register{
+    
+    color:green;
+}
+
+.login_password_error{
+     top: 106px;
+right: -156px;
+}
+
+.login_error{
+    top: 66px;
+right: -156px;
+}
+
+.password_forget_error{
+    top: 66px;
+right: -156px;
+}
+
+.succesfull_register{
+    background-color: #86B43E;
+color: white;
+width: 955px;
+margin: 0 auto;
+padding: 10px;
+margin: 10px 0;
+ display:none;
+}
+
+.forget_password{
+    margin-top: 12px;
+}
+.forget_reset{
+margin-top: 40px;
+}
+
+.forget_reset strong{
+font-size: 14px;
+}
+
+
+.forget_reset{
+   
+    display:none;
+}
+
+.forget_password strong{
+font-size: 13px;
+line-height: 20px;
+margin-left: 5px;
+font-family: sans-serif;
+letter-spacing: 0px;
+}
+
+.profile_image_btn input[type="submit"]{
+    background-color: transparent;
+    border:none;
+    font-size: 13px;
+
+}
+
